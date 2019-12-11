@@ -17,17 +17,3 @@ Once you have installed python3 and the modules, you can run the file by opening
 The first line must contain all the vertices(integers) of the graph seperated with a space. The second line, "n" contains total number of bidirectional edges in the graph, and the following "n" lines contain two space seperated integers which act as vertices of the graph. 
 
 The output: Prints node/nodes(If equal SBC) with the highest Standardized Betweenness Centrality (SBC) with thier SBC.
-
-Example: 
-Input: 
-1 2 3 4 5 6
-6
-1 2
-1 3
-1 4
-4 5
-3 4
-4 6
-
-Output: 
-k = 1, SBC = 0.7, Top '1' Nodes:  4
